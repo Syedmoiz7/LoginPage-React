@@ -1,0 +1,18 @@
+.img {
+    /* height: 100vh;   */
+    position: relative;
+    bottom: 160px;
+    width:800px;
+}
+
+.mainCont {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.loginForm {
+    
+    /* display: flex; */
+    
+    /* margin-left: 150px; */
+}
