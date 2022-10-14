@@ -1,16 +1,28 @@
 import './index.css';
-// import { useState } from 'react';
-// import axios from "axios"
 
 function Login() {
 
     return (
         <div className='mainCont'>
             <div className='image'>
-                <img src="https://colorlib.com/etc/lf/Login_v18/images/bg-01.jpg" alt="Side background" className='img' />
+
             </div>
             <div className="loginForm">
-                <h1>Login to continue</h1>
+                <div className="loginHeading">
+                    Login to continue
+                </div>
+                <div className="emailInput">
+                    <form>
+                        <div className="email" data-validate="Valid email is required: ex@abc.xyz">
+                            <input type="email" id="email" className='inputs' required />
+                            <span>Email</span>
+                        </div>
+                        <div className="password">
+                            <input type="password" id="pass" className='inputs' required />
+                            <span>Password</span>
+                        </div>
+                    </form>
+                </div>
             </div>
 
 
