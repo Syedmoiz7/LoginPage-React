@@ -96,3 +96,9 @@
     visibility: hidden;
     opacity: 0;
 }
+
+.span {
+    position: absolute;
+    left: 0px;
+    top: 30px
+}

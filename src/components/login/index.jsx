@@ -15,11 +15,11 @@ function Login() {
                     <form>
                         <div className="email" data-validate="Valid email is required: ex@abc.xyz">
                             <input type="email" id="email" className='inputs' required />
-                            <span>Email</span>
+                            <span className='span'>Email</span>
                         </div>
                         <div className="password">
                             <input type="password" id="pass" className='inputs' required />
-                            <span>Password</span>
+                            <span className='span'>Password</span>
                         </div>
                     </form>
                 </div>
